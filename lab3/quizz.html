@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quizz</title>
 </head>
 <body>
     <h2>Quizz</h2>
+    <form method="get" action="https://postman-echo.com/get">
     <fieldset>
 <label for="nome">Nome:</label>
 <input type="text" name="nome" id="nome">  <!-- Reutilize os valores de name e id -->
@@ -78,11 +79,9 @@
                 <input type="radio" id="dislike" name="foto" value="nao">
                 <label for="dislike">Não</label><br><br>
         
-        
-
-        
         <input type="reset" value="Limpar Quiz">
+        <input type="submit" value="Enviar Quiz">
     </fieldset>
-    
+</form>
 </body>
 </html>
